@@ -1,7 +1,7 @@
-package test;
+package mine.test;
 
 import junit.framework.TestCase;
-import main.ConvertRoman;
+import mine.main.ConvertRoman;
 
 public class ChangeTest extends TestCase {
 	ConvertRoman change = new ConvertRoman();
@@ -33,16 +33,5 @@ public class ChangeTest extends TestCase {
 		assertEquals("XC", change.convertRoman(90));
 		assertEquals("XCIX", change.convertRoman(99));
 		assertEquals("C", change.convertRoman(100));
-		
-//		assertEquals("CC", change.convertRoman(200));
-//		assertEquals("CD", change.convertRoman(400));
-//		assertEquals("D", change.convertRoman(500));
-//		assertEquals("DCLXVI", change.convertRoman(666));
-//		assertEquals("CM", change.convertRoman(900));
-//		assertEquals("M", change.convertRoman(1000));
-//		assertEquals("MCMXLV", change.convertRoman(1945));
-//		assertEquals("MCMXCIX", change.convertRoman(1999));
-//		assertEquals("MM", change.convertRoman(2000));
-//		assertEquals("MMM", change.convertRoman(3000));
 	}
 }

@@ -1,4 +1,4 @@
-package main;
+package mine.main;
 
 public class ConvertRoman {
 	String[] ts = { "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC", "C" };
@@ -21,7 +21,7 @@ public class ConvertRoman {
 
 	private String temp(int o) {
 		String str = "";
-		
+
 		if (o == 0) {
 		} else {
 			str += os[o - 1];
